@@ -207,3 +207,40 @@ textarea {
   transform: translateY(0);
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+
+/* Footer Section */
+#footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin-top: 2rem;
+}
+
+.footer-content p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.social-links {
+  margin: 1rem 0;
+}
+
+.social-links a {
+  margin: 0 10px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: transform 0.3s;
+}
+
+.social-links img {
+  width: 100%;
+  border-radius: 50%;
+  transition: box-shadow 0.3s;
+}
+
+.social-links a:hover img {
+  box-shadow: 0 4px 10px rgba(255, 152, 0, 0.8);
+  transform: scale(1.1);
+}
